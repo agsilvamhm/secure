@@ -1,0 +1,56 @@
+Application Requirements
+
+Application User
+1- User new account (unique email address)
+- Account verification (verify email address)
+- User profile image
+- User details (name, email, position, bio, phone, address, etc)
+- being able to update user detail information
+
+2- User reset password (whithout being logged in)
+- Password reset link should expire within 24 hours
+
+3- User login (using email and a password)
+- Token based authentication (JWTToken)
+- Refresh Token seamlessly
+
+4 - Brute force attack mitigation (account lock mechanism)
+- Lock account on 6 fauked kigub attempts
+
+5 - Role and Permisson based application access (ACL)
+- Protect application resources using roles and permissions
+
+6 - Two-factor authentication (using user phone number)
+- send verification code to user´s phone
+
+7 - Keep track of user activities (login, account change, etc)
+- Ability to report suspicious activities
+- Tracking information.
+	- IP Address
+       	- Device
+    	- Browser
+	- Date
+	- Type
+
+Customers
+
+1 - customer information
+- Manage customer information (name, address, etc)
+- Customer can be a person or an instituition
+- customer should have a status
+- Customer will have invoices
+- print customers in spreadsheet
+
+2 - search Customers
+- Be able to search customer by name
+- pagination
+
+Invoices
+
+1- Manage invoices
+- Create new invoices
+- Add invoices to customer
+- Print invoices for mailing
+- Print invoices in spreadsheet
+- Download invoices as PDF 
+
